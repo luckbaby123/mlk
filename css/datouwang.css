@@ -1,0 +1,92 @@
+
+
+.focus {
+	position: relative;
+	width: 1000px;
+	height: 430px;
+	
+
+
+}
+.focus img {
+	width: 1000px;
+	height: 400px;
+	
+}
+
+
+
+.focus .D1fBt {
+	height: 20px;
+	z-index: 10;
+	padding-top: 8px;
+}
+
+
+.focus .fcon {
+	position: relative;
+	width: 100%;
+	float: left;
+	display: none;
+}
+
+.focus .fbg {
+	width: 120px;
+	height: 21px;
+	text-align: center;
+	z-index: 200;
+	margin: 0 auto;
+	overflow: hidden;
+	zoom: 1;
+	height: 35px;
+	
+}
+
+.focus .D1fBt a {
+	position: relative;
+	display: inline;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	margin: 0 5px;
+	text-decoration: none;
+	outline: 0;
+	float: left;
+	background: #000;
+}
+.focus .D1fBt .current,
+.focus .D1fBt a:hover {
+	background:#f98384;
+}
+
+.focus .D1fBt i {
+	display: none;
+	font-style: normal;
+}
+.focus .prev,
+.focus .next {
+	position: absolute;
+	width: 35px;
+	height: 75px;
+	background: url(../img/focus_btn.png) no-repeat;
+}
+.focus .prev {
+	top: 50%;
+	margin-top: -37px;
+	left: 20px;
+	background-position: 0 -74px;
+	cursor: pointer;
+}
+.focus .next {
+	top: 50%;
+	margin-top: -37px;
+	right: 20px;
+	background-position: -40px -74px;
+	cursor: pointer;
+}
+.focus .prev:hover {
+	background-position: 0 0;
+}
+.focus .next:hover {
+	background-position: -40px 0;
+}

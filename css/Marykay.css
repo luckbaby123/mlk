@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	width: 100%;
+	background: #000;
+}
+#wrap{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+#wrap #head{
+	height: 95px;	
+	background: #000;
+	
+	
+	position: fixed;
+	z-index: 10;
+}
+#wrap #head #head_top{
+	height: 70px;
+	
+}
+#wrap #head #head_top #top_sign{
+	width: 268px;
+	height: 100%;
+	background: -webkit-radial-gradient(circle,#c07e80 5%, #7c5254 50%,#000); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(circle,#c07e80 5%, #7c5254 50%,#000); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(circle,#c07e80 20%, #7c5254 50%,#000); /* Firefox 3.6 - 15 */
+    background: radial-gradient(circle,#c07e80 5%, #7c5254 50%,#000); /* 标准的语法 */
+   font-size: 35px;
+   text-align: center;
+   line-height: 70px;
+   color: white;
+   float: left;
+   margin-left: 10px;
+   
+}
+#wrap #head #head_top #top_right{
+	width: 700px;
+	height: 100%;
+	float: right;	
+	background: -webkit-linear-gradient(left top, #000 30%, #352323); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right, #000 30%, #352323); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right, #000 30%, #352323); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right, #000  30%, #352323); /* 标准的语法 */
+   overflow: hidden;
+   
+}
+#wrap #head #head_top #top_right #top_search{
+	
+	 
+	display: inline-block;
+	border: 2px solid #8c7a7a;
+	border-radius: 5px;	
+	margin-top:25px;
+	float: right;
+	margin-right: 28px;
+	height: 20px;
+	
+	}
+#wrap #head #head_top #top_right #search_text{
+	height: 100%;
+	width: 155px;
+	float: left;	
+}
+#wrap #head #head_top #top_right #search_btn{
+  width: 15px;
+  height:21px;
+  line-height: 15px;
+  border: 2px solid red;
+  border: 0;
+ 
+  
+  background: url(../img/sanjiao.jpg)  2px 0px;
+}
+#wrap #head  #head_nav{
+	height: 23px;
+}
+#wrap #head  #head_nav ul#ul_nav{
+	list-style: none;
+	height: 23px;
+	width: 1000px;
+	
+    background: -webkit-linear-gradient(#454142,#535353); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#454142,#535353); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#454142,#535353); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#454142,#535353); /* 标准的语法 */
+	position: relative;
+	
+}
+#wrap #head  #head_nav ul#ul_nav li#list1{margin-left: 50px;} 
+#wrap #head  #head_nav ul#ul_nav li.li_nav1{
+	float: left;
+	display: inline-block;
+	
+}
+#wrap #head  #head_nav ul#ul_nav li.li_nav1 .a_href{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	line-height: 23px;
+	color: #fff;	
+	border-top:1px solid #454142;
+}
+#wrap #head  #head_nav ul#ul_nav li#list1 .a_href,li#list4 .a_href,li#list5 .a_href,li#list6 .a_href,li#list7 .a_href,li#list8 .a_href{width: 76px;}
+#wrap #head  #head_nav ul#ul_nav li#list2 .a_href,li#list9 .a_href{width: 110px;}
+#wrap #head  #head_nav ul#ul_nav li#list3 .a_href,li#list10 .a_href{width: 120px;}
+#wrap #head  #head_nav ul#ul_nav li.li_nav1 a.a_href:hover{
+	color:#f98384;
+	background: #000;
+	border-bottom:3px solid #000 ;
+}
+#wrap #head  #head_nav ul#ul_nav li#list1 a.a_href:hover,
+#wrap #head  #head_nav ul#ul_nav li#list9 a.a_href:hover{border: 0px;}
+#wrap #head  #head_nav ul#ul_nav li.li_nav1 .nav_option{
+	width: 100%;
+	height: 300px;
+	display: none;
+	
+	position: absolute;
+	top: 24px;
+	left: 0px;
+	background:#000;
+	
+}
+
+#wrap #head  #head_nav ul#ul_nav li.li_nav1 .nav_option .img_option{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+	float: left;	
+}
+#wrap #head  #head_nav ul#ul_nav li.li_nav1 .nav_option .img_option img{
+	height: 235px;
+	width: 380px;
+}
+ #wrap #head  #head_nav ul#ul_nav li.li_nav1 .nav_option .ul_option{
+	
+	width: 500px;
+	height: 230px;
+	margin-top: 32px;
+	margin-left: 90px;
+	list-style: none;
+	float:left;
+   
+}
+
+#wrap #head  #head_nav ul#ul_nav li.li_nav1 .nav_option .ul_option li a{
+	text-decoration: none;
+	display:block;
+	color: #000;
+	margin-bottom: 15px;
+	font-size: 15px;
+	color:#bfc7c7;
+}
+#wrap #head  #head_nav ul#ul_nav li.li_nav1 .nav_option .ul_option li a:hover{
+	color:#f98384;
+}
+#wrap #head  #head_nav ul#ul_nav li.li_nav1 .nav_option .ul_option li a span{
+	float: right;
+	display: block;
+	width: 320px;
+	font-size: 13px;
+	
+}
+#wrap #head  #head_nav ul#ul_nav li#list3 #health_option ul.ul_option li a.title_pink{color:#f98384;}
+#wrap #head  #head_nav ul#ul_nav li#list3 #health_option ul.ul_option li a.title_white{color: #fff;}
+#wrap #head  #head_nav ul#ul_nav li#list3 #health_option ul.ul_option li a.title_white:hover{color: #fff;cursor:text;}
+#wrap #head  #head_nav ul#ul_nav li#list3 #health_option ul.ul_option li a.font_change{font-size: 13px;}
+#wrap #head  #head_nav ul#ul_nav li#list4 #skin_option {height: 320px;}
+#wrap #head  #head_nav ul#ul_nav li#list10 #about_option ul.ul_option{margin-left: 750px;}
+
+#wrap #scroll_content { width: 100%; background: #fff;position:absolute;top:95px;}
+#wrap #scroll_content #img_message ul{ overflow: hidden;margin-top: 5px;}
+#wrap #scroll_content #img_message ul li{
+	float: left;
+	margin-left: 10px;
+	position: relative;
+	list-style: none;
+
+}
+#wrap #scroll_content #img_message ul li img
+{
+
+	 width: 235px; 
+	 height: 150px; 
+	 position: relative;}
+#wrap #scroll_content #img_message ul li .message_title
+{
+	font-size: 20px;	
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+	background-color: rgba(250,187,187,0.8);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+  
+    text-align: center;
+    line-height: 35px;
+     display: none;
+    
+}
+
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  .message_title{
+    background-color:#eaadad;
+    filter:Alpha(opacity=20);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+  .message_title b{
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+  }  
+}
+
+#wrap #scroll_content #img_message ul li .message_title b{
+   display: block;
+   margin-top:45px;
+   font-weight: bold;
+     color: #f05b65;
+    
+}
+
+#wrap #scroll_content #img_message #message_img2 img{margin-top: 15px;
+		margin-left: 10px;
+		height: 180px;
+		width: 970px;}
+#wrap #scroll_content #foot ul{overflow: hidden;}
+#wrap #scroll_content #foot #foot_top{
+	overflow: hidden;
+	background:#fcdfe1;
+	height: 30px;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+}
+#wrap #scroll_content #foot #foot_top li{
+	float: left;
+	list-style: none;
+	line-height: 30px;
+	
+}
+#wrap #scroll_content #foot #foot_top li#foot_top1{margin-left: 150px;}
+
+#wrap #scroll_content #foot #foot_top li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+	padding-right: 30px;
+	border-right:1px solid #000 ;
+	margin-right: 25px;
+	
+}
+#wrap #scroll_content #foot #foot_top   li a#foot_top_a_7{border:0px;}
+#wrap #scroll_content #foot #foot_top li a:hover{color:  #f68889;}
+#wrap #scroll_content #foot ul{overflow: hidden;list-style: none;}
+
+#wrap #scroll_content #foot #foot_center li.foot_con{
+	height: 190px;
+	width: 476px;
+	float: left;
+	margin-top: 10px;
+
+	}
+
+    #wrap #scroll_content #foot #foot_center li#foot_con1{
+	border-right:1px dashed #000 ;
+	margin-left: 22px;
+}
+#wrap #scroll_content #foot #foot_center .foot_code img{height: 76px;width: 76px;}
+#wrap #scroll_content #foot ul#foot_center li#foot_con1 li.foot_code  {
+	float: left;
+	width: 228px; 
+	height: 87px;
+	margin-top: 10px;
+	margin-left: 5px;
+	position: relative;
+
+	}
+#wrap #scroll_content #foot ul#foot_center li#foot_con1 li.foot_code ul li{
+	float: left;
+	font-size:12px;
+	margin-right: 10px;
+	}
+#wrap #scroll_content #foot ul#foot_center li#foot_con1 li.foot_code ul li.code_title{
+	line-height: 16px;
+	margin-top: 25px;	
+}
+#wrap #scroll_content #foot ul#foot_center li#foot_con2 p{
+	font-size: 12px;
+	line-height: 16px;
+	margin-left: 40px;
+	}	
+#wrap #scroll_content #foot ul#foot_center li#foot_con2 #pro_decr1{
+	width: 410px;
+	margin-top: 30px;	
+}
+#wrap #scroll_content #foot ul#foot_center li#foot_con2 #pro_decr2{
+	width:430 ;
+	margin-top: 40px;
+}
+#wrap #scroll_content #foot ul#foot_center li#foot_con2 p a{color:#d24f4d;}
+#wrap #scroll_content #foot #foot_bottom{
+	width: 950px;
+	margin: 15px auto 0px auto;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	font-size: 12px;
+	border-top:1px dashed #000 ;
+	letter-spacing:1px;
+	font-size: 13px;
+	}
+#wrap #scroll_content #foot ul#foot_center li#foot_con1 li.foot_code  li.li_img{height: 76px;width: 76px;}
+#wrap #scroll_content #foot ul#foot_center li#foot_con1 li.foot_code  .img_qcode
+{
+	position:absolute;
+	left:0; top:0;
+	
+	
+	}
+
